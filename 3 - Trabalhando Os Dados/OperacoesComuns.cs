@@ -76,7 +76,7 @@ namespace EnsinandoPrograma.TrabalhandoOsDados
             }
         }
 
-        public static void switchCaseMuitoLoco()
+        public static void verificarAlcanceNumeroSwitch()
         {
             Random rnd = new Random();
             int valor = rnd.Next(1, 10);
@@ -92,11 +92,31 @@ namespace EnsinandoPrograma.TrabalhandoOsDados
                     break;
                 case 5:
                 case 4:
+                    Console.WriteLine("Entre 5 e 4");
+                    break;
                 case 3:
                 case 2:
                 case 1:
-                    Console.WriteLine("Entre 5 e 1");
+                    Console.WriteLine("Entre 3 e 1");
                     break;
+            }
+        }
+
+        public static void verificarAlcanceNumeroElseIf()
+        {
+            Random rnd = new Random();
+            int valor = rnd.Next(1, 10);
+            if(valor <= 10 && valor >= 6)
+            {
+                Console.WriteLine("Entre 10 e 6");
+            }
+            else if (valor <= 5 && valor >= 4)
+            {
+                Console.WriteLine("Entre 5 e 4");
+            }
+            else
+            {
+                Console.WriteLine("Entre 3 e 1");
             }
         }
 

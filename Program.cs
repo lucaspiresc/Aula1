@@ -67,7 +67,8 @@ namespace EnsinandoPrograma
             bixo = new Gato("Preto");
             OperacoesComuns.verificarTipoAnimalVersao2(bixo);
 
-            OperacoesComuns.switchCaseMuitoLoco();
+            OperacoesComuns.verificarAlcanceNumeroSwitch();
+            OperacoesComuns.verificarAlcanceNumeroElseIf();
 
             OperacoesComuns.enquantoFaca();
             OperacoesComuns.facaEnquanto();

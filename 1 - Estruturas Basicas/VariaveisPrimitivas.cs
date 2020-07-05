@@ -8,11 +8,11 @@ namespace EnsinandoPrograma.EstruturasBasicas
     {
         public static void variaveis()
         {
-            int inteiro = int.MaxValue;
-            long inteiroMaior = long.MaxValue;
+            int inteiro = 2147483647;
+            long inteiroMaior = 9223372036854775807;
 
-            float valorDecimal = float.MaxValue;
-            double decimalMaior = double.MaxValue;
+            float valorDecimal = 1.37F;
+            double decimalMaior = 123.31;
 
             char[] nomeComoVetor = new char[] { 'S', 'm', 'i', 't', 'h' };
             String nomeComoString = "Smith";
